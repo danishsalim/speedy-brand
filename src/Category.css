@@ -1,0 +1,50 @@
+.categories{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin-left:4rem;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:focus{
+  text-decoration: underline;
+}
+.topic-form {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .topic-form input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .topic-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .topic-form button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  
+
+

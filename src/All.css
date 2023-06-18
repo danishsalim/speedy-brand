@@ -1,0 +1,107 @@
+.container {
+    margin: 1rem 4rem;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    
+  }
+  
+  .base-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .section-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-top: 2px solid rgb(0,0,0,.1);
+    border-bottom: 2px solid rgb(0,0,0,.1);
+    padding: 10px 0;
+  }
+  
+  .list-container {
+    display: flex;
+    flex-direction: column ;
+    justify-content: flex-start;
+  }
+  
+  .topic-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .keywords {
+    margin-bottom: 20px;
+  }
+  
+  .keywords ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    gap:1rem;
+  }
+  
+  .keywords li {
+    margin-bottom: 5px;
+    font-size: x-small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .keywords li:nth-child(3n+1) {
+      color: #83c717; 
+      border: 1px solid ;
+      padding:0.3rem;
+      border-radius: 20px;
+      background-color:#f7f4be;
+    }
+    
+    .keywords li:nth-child(3n+2) {
+      color: rgb(206, 122, 136);
+      border: 1px solid ;
+      padding:0.3rem;
+      border-radius: 20px;
+      background-color: pink;
+    }
+    
+    .keywords li:nth-child(3n+3) {
+      color: #5c5cf0; /* Blue */
+      border: 1px solid ;
+      padding:0.3rem;
+      border-radius: 20px;
+      background-color: rgb(213, 213, 223);
+    }
+  
+   .buttons{
+    display: flex;
+    gap: 2px;
+   } 
+  
+   button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .write-button button{
+    background-color: #007bff;
+  }
+  
+   button:hover {
+    background-color: #0056b3;
+  }
+  .delete-button button{
+    background-color:magenta;
+    
+  }
+  
+  .delete-button button:hover {
+    background-color: #e41b90;
+  }
+  
